@@ -17,6 +17,7 @@ body {
 h1{
     font-family:'Kanit', sans-serif;
     margin-top: 1.3em;
+    margin-left: 0.5em;
    
 }
 
@@ -61,7 +62,7 @@ div#profileimg{
 }
 
 main{
-    margin: 15px;
+    margin: 15px 15px 15px 13px;
 }
 
 
@@ -69,13 +70,64 @@ input{
     padding: 6px 30px;
     background-color: rgba(177, 177, 177, 0.705);
     border-style: none;
+    margin-left: 1em;
 }
 
 div.box{
     background-color: white;
-    width: 90%;
-    margin: 0.5em;
+    margin: 0.25em;
     border-radius: 20px;
     padding: 60px 20px;
-    font-size: 1.5em;
+    font-size: 5vw;
+}
+
+h3, h4{
+    margin: 22px 10px 22px 10px;
+
+}
+
+p {
+    margin-top: 2.5em;
+    font-size: 14px;
+    color:rgba(94, 91, 91, 0.829) ;
+    margin-left: 10px;
+}
+
+#icons-dashboard{
+    margin-left: 10px;
+    font-size: 37px;
+    background-color: orange;
+    padding: 10px; 
+    border-radius: 50%;
+}
+
+#icons-dashboard2{
+    margin-left: 10px;
+    font-size: 37px;
+    background-color: rgb(114, 167, 245);
+    padding: 8px; 
+    border-radius: 50%;
+}
+
+#icons-dashboard3{
+    margin-left: 10px;
+    font-size: 37px;
+    background-color: rgb(75, 218, 75);
+    padding: 8px; 
+    border-radius: 50%;
+}
+
+
+table thead tr th{
+    font-size: 3.3vw;
+    padding: 17px 3.8vw;
+   
+    
+}
+
+table tbody tr td{
+    font-size: 3.3vw;
+    padding: 15px 3.8vw;
+   
+    
 }
