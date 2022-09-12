@@ -25,19 +25,23 @@
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Kanit:wght@600&display=swap" rel="stylesheet">
-
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@48,400,0,0" />
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@48,400,0,0" />
 
     <title>Dash Board Project</title>
 </head>
 <body>
 
 
-    <header>  <span id="menubtn" class="material-symbols-outlined"> menu </span>  
+    <header>  <button  id="menubtn"> <span  class="material-symbols-outlined"> menu </span>
+    
+    </button>  
         
-        <div id="lightbtn"> 
+        <div id="lightbtn" onclick="button()"> 
 
-            <span class="material-symbols-outlined"> dark_mode </span> 
-             <span class="material-symbols-outlined">  light_mode </span> 
+            <input class="darkmode" type="button"><span  class="material-symbols-outlined"> dark_mode </span> </input>
+
+            <input class="lightmode" type="button"><span class="material-symbols-outlined">  light_mode </span> </input>
             
             </div>
     
@@ -124,16 +128,16 @@
                         </tr>
 
                         <tr>
-                            <td>  </td>
-                            <td>  </td>
-                            <td>  </td>
+                            <td> 1403  </td>
+                            <td> Process </td>
+                            <td> Denied </td>
                         </tr>
 
                         <tr>
 
-                            <td> </td>
-                            <td>  </td>
-                            <td>  </td>
+                            <td> 1457 </td>
+                            <td> Process </td>
+                            <td> Denied </td>
                         </tr>
 
 
@@ -153,7 +157,7 @@
 
 
         </section>
-        <p><a href="#">Show All </a></p>
+        <p style="text-align:center;"> Show All </p>
 
 
 
@@ -165,9 +169,19 @@
         
         <section id="updates">
             <div class="box">
-                <div id="imgProfile "> img </div> <p> <a href="#"> Mike Tyson</a> recevied his order of a bla bla bla </p>
-                <div id="imgProfile "> img </div> <p> <a href="#"> Diana Ayi</a> recevied his order of a bla bla bla </p>
-                <div id="imgProfile "> img </div> <p> <a href="#"> Mandy Roy </a> recevied his order of a bla bla bla </p>
+
+                <div class="update">
+                    <div id="imgProfileMike">  </div> <p>  <b> Mike Tyson</b> recevied his order of a bla bla bla </p>
+                   
+                </div>
+
+                <div class="update">
+                    <div id="imgProfileDiana">  </div> <p> <b> Diana Ayi</b> recevied his order of a bla bla bla </p>
+                </div>
+
+                <div class="update"> 
+                    <div id="imgProfileMandy">  </div> <p> <b> Mandy Roy </b> recevied his order of a bla bla bla </p>
+                </div>
             </div>
         </section>
         
@@ -177,11 +191,26 @@
 
         <section id="sales">
 
-            <div class="box"> <h5> ONLINE ORDERS </h5>  </div>
-            <div class="box"> <H5> OFFLINE ORDERS</H5> </div>
-            <div class="box"> <H5> NEW CUSTOMER </H5></div>
+            <div class="box" style="padding: 50px 5px 50px 12px ;"> <span id="icon-sales" class="material-symbols-outlined"> shopping_cart</span> 
 
-            <div id="dotted"> + Add Product </div>
+                
+                    <h5> ONLINE ORDERS  </h5> <p class="green"> +39% </p>   <b> 3849 </b>
+                
+                <p> Last 24 hours</p>
+                
+            </div>  
+
+
+                <div class="box" style="padding: 50px 5px 50px 12px ;"> <span id="icon-sales1"  class="material-symbols-outlined"> shopping_bag</span>  <H5> OFFLINE ORDERS</H5> 
+                    <p class="red"> -17% </p> <b> 751 </b>
+                    <p> Last 24 hours</p> </div>
+
+
+            <div class="box" style="padding: 50px 5px 50px 12px;"> <span id="icon-sales2"  class="material-symbols-outlined"> person</span> <H5> NEW CUSTOMER </H5>  <p class="green"> +25% </p>  <b>2129 </b>
+            
+                <p> Last 24 hours</p> </div>
+
+            <div class="dotted" onclick="AddProduct()"> + Add Product </div>
         </section>
 
 
