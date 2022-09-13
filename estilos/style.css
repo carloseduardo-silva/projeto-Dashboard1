@@ -9,10 +9,85 @@ body {
     background-color: rgba(223, 221, 221, 0.705);
     font-family: Arial, Helvetica, sans-serif;
 }
+.dark{
+    background-color: black;
+}
+
+/* MENU SIDE CONFIGS  */
+h1.menu{
+    margin: 0px;
+}
+.logo img{
+    
+    width: 2rem;
+    height: 2rem;
+}
+
+.logo{
+    display: flex;
+  
+}
+
+.top{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin: 0.5em;
+   
+}
+
+.asidemenu{
+    height: 90vh;
+    width: 50%;
+    background-color: white;
+
+}
+.sidebar{
+    display: flex;
+    flex-direction: column;
+    height: 86vh;
+    margin-top: 3rem;
+    
+}
+.option{
+    display: flex;
+    align-items: center;
+    justify-content:flex-start;
+    font-weight: bolder;
+    margin: 0.9em;
+    color: rgba(117, 113, 113, 0.808);
+    border-radius: 15px;
+    padding: 10px;
+    
+}
+
+.option:hover{
+    cursor: pointer;
+    transition: 400ms;
+    color:  rgba(93, 63, 202, 0.473) ;
+    background-color: rgba(80, 80, 80, 0.301);
+}
+
+
+.option h2{
+    margin: 0.6em;
+    font-size: 1em;
+}
+
+
+#logout{
+    margin-top: 6.5em;
+}
 
 .hide{
     display: none;
 }
+
+
+
+
+/* HTML MAIN PART CONFIGS */
+
 
 h1{
     font-family:'Kanit', sans-serif;
@@ -30,40 +105,52 @@ header{
     box-shadow: 5px 5px 20px rgba(48, 47, 47, 0.39);
 
 }
+ 
+#profile{
+    display: none;
+}
 
 #menubtn {
     background-color: transparent;
     border-style: none;
     position: absolute;
-    right: 92.8%;
-    font-size: 36px;
-    margin-top: 0.8em;
-    margin-left: 0.5em;
+    right: 87.2%;
+    margin-top: 2em;
+   
    
 }
 
-div#lightbtn{
+#menu{
+    font-size: 36px;
+
+    
+}
+#stylebtn:hover{
+    cursor: pointer;
+}
+
+div#stylebtn{
     display: flex;
     justify-content: space-around;
     background-color:  rgba(223, 221, 221, 0.705);
-    width: 4.8em;
+    width: 5em;
     height: 1.6em;
-    padding-left: 12px;
+    padding-left: 2px;
     border-radius: 10px;
     margin-top: 2em;
     margin-right: 0.8em;
+    color: black;
 }
 
 .lightmode{
     text-align: center;
     color: white;
     background-color: rgba(93, 63, 202, 0.473);
-    width: 1.8em;
-    padding-right: 5px;
+    width: 3em;
     border-radius: 10px;
 }
-.darkmode{
-    background-color: white;
+.none{
+    background-color: transparent;
     color: black;
 }
 
@@ -243,4 +330,19 @@ h5{
 
 }
 
+@media (min-width: 620px) {
+    #menubtn{
+        display: none;
+    }
+    
+    #profile{
+        display: flex;
+        margin-right: 1em;
+    }
+
+    #dashboard .box{
+       width: 45%;
+       font-size: 3vw;
+    }
+}
 
