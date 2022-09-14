@@ -330,7 +330,7 @@ h5{
 
 }
 
-@media (min-width: 620px) {
+@media (min-width: 600px) {
     #menubtn{
         display: none;
     }
@@ -344,5 +344,77 @@ h5{
        width: 45%;
        font-size: 3vw;
     }
+
+    #menureal{
+        display: inline-flex;
+    }
+    
+    .asidemenu{
+        background-color: transparent;
+        width: 100%;
+        margin: 1em;
+    }
+
+    div.top{
+        display: none;
+    }
+
+    #logout{
+        margin-top: 10px;
+    }
+
+    .option h2{
+        display: none;
+    }
+    .option{
+        font-size: larger;
+        padding: 20px;
+        margin: 0.7em;
+    }
+    .option:hover{
+        border-left: 8px solid;
+        border-left-color:  rgba(93, 63, 202, 0.473)  ;
+        
+    }
+
+    header{
+        background-color: transparent;
+        box-shadow: none;
+        height: 0px;
+        order: 2;
+        
+    }
+
+    body{
+        background-color: rgb(248, 241, 241) ;
+        display: inline-flex;
+        flex-direction: row;
+        justify-content: space-between;
+        width: 100%;
+    }
+    
+   
+
+    section#updates{
+       position: absolute;
+        top: 15.9%;
+        left: 56%;
+        margin: 1.1em;
+    }
+
+    div.box{
+        padding: 30px 10px;
+        font-size: 3.3vw;
+    }
+
+    h1#updatesTitle{
+        position: absolute;
+        top: 8vh;
+        left: 58%;
+        font-size: 1.6em;
+    }
+
+    
+  
 }
 
