@@ -329,6 +329,11 @@ h5{
     color: white;
 
 }
+#maindiv{
+    margin: 10px;
+}
+
+
 
 @media (min-width: 678px) {
     #menubtn{
@@ -341,7 +346,7 @@ h5{
     }
 
     #dashboard .box{
-       width: 45%;
+       width: 155%;
        font-size: 3vw;
     }
 
@@ -382,7 +387,7 @@ h5{
         box-shadow: none;
         height: 0px;
         order: 2;
-        
+        margin-right: -160px;
     }
 
     body{
@@ -393,100 +398,68 @@ h5{
         width: 100%;
     }
     
-   
-
-    section#updates{
-       position: absolute;
-        top: 13%;
-        left: 56%;
-        margin: 1.1em;
-    }
 
     div.box{
         padding: 30px 10px;
         font-size: 2.7vw;
     }
 
-    h1#updatesTitle{
-        position: absolute;
-        top: 6.8vh;
-        left: 58%;
-        font-size: 1.7em;
-    }
-
     main{
-        margin: 15px -300px 15px 13px;
+        margin: 15px 40px 15px 13px;
+        height: 60%;
     }
 
+    section#updates{
+        display: flex;
+        flex-direction: column;
+        width: 70%;
+
+    }
     section#sales{
-        position: absolute;
-        top: 75%;
-        left: 57%;
-        margin: 0.8em;
-
+        width: 70%;
     }
 
-    #Salestitle{
-        position: absolute;
-        top: 68%;
-        left: 57%;
-        font-size: 1.7em;
-        margin: 1em;
-
-    }
-
+    
     section#orders{
-        margin-top: 2vh;
-        
+      display: flex;
+      flex-direction: column;
+      position: relative;
+      right: 96%;
+      margin-left: 2em;
+      order: 3;
+      font-size: 1.3em;
     }
-    #ordertitle{
-        margin-top: 25vh;
-    }
+   
     
     #updatebox{
         padding: 3px 15px;
         font-size: 1.7vw;
     }
-  
+    
+    #maindiv{
+        order: 3;
+        display: flex;
+        align-items: flex-start;
+        flex-direction: column;
+        margin-top: 5.2em;
+        margin-left: 1.5em;
+        margin-right: 9em;
+        width: 50%;
+    }
 }
 
 
-
-
-@media (min-height: 780px) {
-
-    #Salestitle{
-        top: 66%;
-    }
-
-    section#sales{
-        top: 73%;
+@media (min-width:900px) {
+    section#orders{
+        right: 70%;
     }
     
 }
 
-@media (min-height: 870px) {
 
-    #Salestitle{
-        top: 62%;
-    }
 
-    section#sales{
-        top: 67%;
-    }
-    
-}
 
-@media (min-height: 1000px) {
 
-    #Salestitle{
-        top: 54%;
-    }
 
-    section#sales{
-        top: 59%;
-    }
-    
-}
 
 
