@@ -330,7 +330,7 @@ h5{
 
 }
 
-@media (min-width: 600px) {
+@media (min-width: 678px) {
     #menubtn{
         display: none;
     }
@@ -397,24 +397,96 @@ h5{
 
     section#updates{
        position: absolute;
-        top: 15.9%;
+        top: 13%;
         left: 56%;
         margin: 1.1em;
     }
 
     div.box{
         padding: 30px 10px;
-        font-size: 3.3vw;
+        font-size: 2.7vw;
     }
 
     h1#updatesTitle{
         position: absolute;
-        top: 8vh;
+        top: 6.8vh;
         left: 58%;
-        font-size: 1.6em;
+        font-size: 1.7em;
     }
 
+    main{
+        margin: 15px -300px 15px 13px;
+    }
+
+    section#sales{
+        position: absolute;
+        top: 75%;
+        left: 57%;
+        margin: 0.8em;
+
+    }
+
+    #Salestitle{
+        position: absolute;
+        top: 68%;
+        left: 57%;
+        font-size: 1.7em;
+        margin: 1em;
+
+    }
+
+    section#orders{
+        margin-top: 2vh;
+        
+    }
+    #ordertitle{
+        margin-top: 25vh;
+    }
     
+    #updatebox{
+        padding: 3px 15px;
+        font-size: 1.7vw;
+    }
   
 }
+
+
+
+
+@media (min-height: 780px) {
+
+    #Salestitle{
+        top: 66%;
+    }
+
+    section#sales{
+        top: 73%;
+    }
+    
+}
+
+@media (min-height: 870px) {
+
+    #Salestitle{
+        top: 62%;
+    }
+
+    section#sales{
+        top: 67%;
+    }
+    
+}
+
+@media (min-height: 1000px) {
+
+    #Salestitle{
+        top: 54%;
+    }
+
+    section#sales{
+        top: 59%;
+    }
+    
+}
+
 

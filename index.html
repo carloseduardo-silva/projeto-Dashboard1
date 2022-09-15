@@ -85,149 +85,109 @@
 
 
     <main>
-        <h1> Dashboard </h1>
-        <input type="date">
-
-        <section id="dashboard">
-            <div class="box">
-                <span id="icons-dashboard" class="material-symbols-outlined">
-                    analytics
-                    </span>
-                    <h4> Total Sales</h4>
-                    <h3> $43,024 </h3>
-                    <p> Last 24 hours </p>
-            </div>
-            <div class="box">
-                <span id="icons-dashboard2" class="material-symbols-outlined">
-                    bar_chart
-                    </span>
-                    <h4> Total Expenses </h4>
-                    <h3> $22,013 </h3>
-                    <p> Last 24 hours </p>
+        <div id="maindiv">
+            <h1> Dashboard </h1>
+            <input type="date">
+            <section id="dashboard">
+                <div class="box">
+                    <span id="icons-dashboard" class="material-symbols-outlined">
+                        analytics
+                        </span>
+                        <h4> Total Sales</h4>
+                        <h3> $43,024 </h3>
+                        <p> Last 24 hours </p>
+                </div>
+                <div class="box">
+                    <span id="icons-dashboard2" class="material-symbols-outlined">
+                        bar_chart
+                        </span>
+                        <h4> Total Expenses </h4>
+                        <h3> $22,013 </h3>
+                        <p> Last 24 hours </p>
             
-            </div>
-            <div class="box">
-                <span id="icons-dashboard3" class="material-symbols-outlined">
-                    insights
-                    </span>
-                    <h4> Total Income </h4>
-                    <h3> $16,184 </h3>
-                    <p> Last 24 hours </p>
-            </div>
-        </section>
-
-
-
-        <h1> Recent Orders </h1>
-        <section id="orders">
-
-            <div class="box">
-                <table>
-                    <thead>
-                        <tr>
-                            <th> Product Number </th>
-                            <th> Payment </th>
-                            <th> Status </th>
-                        </tr>
-                    </thead>
-                    <tbody>
-                        <tr>
-                            <td> 1587 </td>
-                            <td> Paid </td>
-                            <td> Delivering </td>
-                        </tr>
-
-                        <tr>
-                            <td> 1587 </td>
-                            <td> Paid </td>
-                            <td> Delivering </td>
-                        </tr>
-
-                        <tr>
-                            <td> 1403  </td>
-                            <td> Process </td>
-                            <td> Denied </td>
-                        </tr>
-
-                        <tr>
-
-                            <td> 1457 </td>
-                            <td> Process </td>
-                            <td> Denied </td>
-                        </tr>
-
-
-
-
-                    </tbody>
-
-
-
-                </table>
-           
-
-
-            </div>
-
-
-
-
-        </section>
-        <p style="text-align:center;"> Show All </p>
-
-
-
-
-
-
-
-        <h1 id="updatesTitle"> Recent Updates </h1>
-        
-        <section id="updates">
-            <div class="box">
-
-                <div class="update">
-                    <div id="imgProfileMike">  </div> <p>  <b> Mike Tyson</b> recevied his order of a bla bla bla </p>
-                   
                 </div>
-
-                <div class="update">
-                    <div id="imgProfileDiana">  </div> <p> <b> Diana Ayi</b> recevied his order of a bla bla bla </p>
+                <div class="box">
+                    <span id="icons-dashboard3" class="material-symbols-outlined">
+                        insights
+                        </span>
+                        <h4> Total Income </h4>
+                        <h3> $16,184 </h3>
+                        <p> Last 24 hours </p>
                 </div>
-
-                <div class="update"> 
-                    <div id="imgProfileMandy">  </div> <p> <b> Mandy Roy </b> recevied his order of a bla bla bla </p>
+            </section>
+            <h1 id="ordertitle"> Recent Orders </h1>
+            <section id="orders">
+                <div class="box">
+                    <table>
+                        <thead>
+                            <tr>
+                                <th> Product Number </th>
+                                <th> Payment </th>
+                                <th> Status </th>
+                            </tr>
+                        </thead>
+                        <tbody>
+                            <tr>
+                                <td> 1587 </td>
+                                <td> Paid </td>
+                                <td> Delivering </td>
+                            </tr>
+                            <tr>
+                                <td> 1587 </td>
+                                <td> Paid </td>
+                                <td> Delivering </td>
+                            </tr>
+                            <tr>
+                                <td> 1403  </td>
+                                <td> Process </td>
+                                <td> Denied </td>
+                            </tr>
+                            <tr>
+                                <td> 1457 </td>
+                                <td> Process </td>
+                                <td> Denied </td>
+                            </tr>
+                        </tbody>
+                    </table>
+            
                 </div>
-            </div>
-        </section>
-        
-
-
-        <h1> Sales Analytics </h1>
-
-        <section id="sales">
-
-            <div class="box" style="padding: 50px 5px 50px 12px ;"> <span id="icon-sales" class="material-symbols-outlined"> shopping_cart</span> 
-
-                
-                    <h5> ONLINE ORDERS  </h5> <p class="green"> +39% </p>   <b> 3849 </b>
-                
-                <p> Last 24 hours</p>
-                
-            </div>  
-
-
-                <div class="box" style="padding: 50px 5px 50px 12px ;"> <span id="icon-sales1"  class="material-symbols-outlined"> shopping_bag</span>  <H5> OFFLINE ORDERS</H5> 
-                    <p class="red"> -17% </p> <b> 751 </b>
+            </section>
+            <p style="text-align:center;"> Show All </p>
+            <h1 id="updatesTitle"> Recent Updates </h1>
+            
+            <section id="updates">
+                <div id="update" class="box">
+                    <div class="update">
+                        <div id="imgProfileMike">  </div> <p>  <b> Mike Tyson</b> recevied his order of a bla bla bla </p>
+            
+                    </div>
+                    <div class="update">
+                        <div id="imgProfileDiana">  </div> <p> <b> Diana Ayi</b> recevied his order of a bla bla bla </p>
+                    </div>
+                    <div class="update">
+                        <div id="imgProfileMandy">  </div> <p> <b> Mandy Roy </b> recevied his order of a bla bla bla </p>
+                    </div>
+                </div>
+            </section>
+            
+            <h1 id="Salestitle"> Sales Analytics </h1>
+            <section id="sales">
+                <div class="box" > <span id="icon-sales" class="material-symbols-outlined"> shopping_cart</span>
+            
+                        <h5> ONLINE ORDERS  </h5> <p class="green"> +39% </p>   <b> 3849 </b>
+            
+                    <p> Last 24 hours</p>
+            
+                </div>
+                    <div class="box"> <span id="icon-sales1"  class="material-symbols-outlined"> shopping_bag</span>  <H5> OFFLINE ORDERS</H5>
+                        <p class="red"> -17% </p> <b> 751 </b>
+                        <p> Last 24 hours</p> </div>
+                <div class="box"> <span id="icon-sales2"  class="material-symbols-outlined"> person</span> <H5> NEW CUSTOMER </H5>  <p class="green"> +25% </p>  <b>2129 </b>
+            
                     <p> Last 24 hours</p> </div>
-
-
-            <div class="box" style="padding: 50px 5px 50px 12px;"> <span id="icon-sales2"  class="material-symbols-outlined"> person</span> <H5> NEW CUSTOMER </H5>  <p class="green"> +25% </p>  <b>2129 </b>
-            
-                <p> Last 24 hours</p> </div>
-
-            <div class="dotted" onclick="AddProduct()"> + Add Product </div>
-        </section>
+                <div class="dotted" onclick="AddProduct()"> + Add Product </div>
+            </section>
+        </div>
 
 
     </main>
