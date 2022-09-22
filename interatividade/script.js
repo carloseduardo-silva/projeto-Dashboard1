@@ -6,6 +6,7 @@ const boxes = document.querySelector('div.box')
 const sidemenureal = document.querySelector('#menureal')
 
 
+
 /* Dark/Light Button */
 function lightclick() {
 lightbtn.classList.toggle('none')
@@ -16,4 +17,5 @@ boxes.classList.toggle('dark')
 
 function menuopen(){
     sidemenureal.classList.toggle('hide')
+    
 }

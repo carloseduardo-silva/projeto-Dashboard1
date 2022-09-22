@@ -25,6 +25,7 @@ h1.menu{
 
 .logo{
     display: flex;
+    
   
 }
 
@@ -33,20 +34,42 @@ h1.menu{
     align-items: center;
     justify-content: space-between;
     margin: 0.5em;
+    cursor: pointer;
    
 }
 
-.asidemenu{
-    height: 90vh;
-    width: 50%;
-    background-color: white;
+#name{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    gap: 0.3rem;
+    
+}
 
+.red{
+    color: #ff7782;
+    
+}
+#menureal{
+    z-index: 1;
+    position: absolute;
+    width: 80%;
+}
+
+
+.asidemenu{
+    height: 105vh;
+    width: 70%;
+    background-color: white;
+    font-size: 0.8em;
 }
 .sidebar{
+    background-color: white;
     display: flex;
     flex-direction: column;
     height: 86vh;
-    margin-top: 3rem;
+    position: relative;
+    top: 2.8rem;
     
 }
 .option{
@@ -75,8 +98,13 @@ h1.menu{
 }
 
 
-#logout{
-    margin-top: 6.5em;
+.asidemenu .sidebar .option:last-child{
+   margin-top: 2em;
+}
+
+.asidemenu .sidebar .option:hover{
+    transition: 400ms ease;
+    margin-left: 0.5em;
 }
 
 .hide{
@@ -352,12 +380,19 @@ h5{
 
     #menureal{
         display: inline-flex;
+        z-index: none;
+        position: none;
+        width: 70%;
+        
     }
     
     .asidemenu{
         background-color: transparent;
         width: 100%;
         margin: 1em;
+    }
+    .sidebar{
+        background-color: transparent;
     }
 
     div.top{
