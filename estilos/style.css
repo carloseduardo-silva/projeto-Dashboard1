@@ -33,7 +33,7 @@ h1.menu{
     display: flex;
     align-items: center;
     justify-content: space-between;
-    margin: 0.5em;
+    margin: 1em;
     cursor: pointer;
    
 }
@@ -53,23 +53,25 @@ h1.menu{
 #menureal{
     z-index: 1;
     position: absolute;
-    width: 80%;
+    left: 0%;
+    
 }
 
 
 .asidemenu{
-    height: 105vh;
-    width: 70%;
+    
     background-color: white;
     font-size: 0.8em;
+    border-radius: 10px;
 }
 .sidebar{
     background-color: white;
     display: flex;
     flex-direction: column;
-    height: 86vh;
     position: relative;
-    top: 2.8rem;
+    top: 2rem;
+    padding-right: 4em;
+    padding-bottom: 1.5em;
     
 }
 .option{
@@ -77,7 +79,7 @@ h1.menu{
     align-items: center;
     justify-content:flex-start;
     font-weight: bolder;
-    margin: 0.9em;
+    margin: 1.2em;
     color: rgba(117, 113, 113, 0.808);
     border-radius: 15px;
     padding: 10px;
@@ -97,10 +99,6 @@ h1.menu{
     font-size: 1em;
 }
 
-
-.asidemenu .sidebar .option:last-child{
-   margin-top: 2em;
-}
 
 .asidemenu .sidebar .option:hover{
     transition: 400ms ease;
@@ -367,8 +365,23 @@ h5{
     #menubtn{
         display: none;
     }
+    p{
+        margin-top: 1.5em;
+    }
+
+    #stylebtn{
+        position: relative;
+        right: -65vw;
+    }
+
+    #profileimg{
+        position: relative;
+        right: -62.5vw;
+    }
     
     #profile{
+        position: relative;
+        right: -65.5vw;
         display: flex;
         margin-right: 1em;
     }
@@ -380,10 +393,9 @@ h5{
 
     #menureal{
         display: inline-flex;
-        z-index: none;
-        position: none;
-        width: 70%;
+        z-index: initial;
         
+         
     }
     
     .asidemenu{
@@ -393,6 +405,7 @@ h5{
     }
     .sidebar{
         background-color: transparent;
+        padding-right:1em;
     }
 
     div.top{
@@ -421,8 +434,8 @@ h5{
         background-color: transparent;
         box-shadow: none;
         height: 0px;
-        order: 2;
-        margin-right: -160px;
+        order: 0;
+        margin-right: -150px;
     }
 
     body{
@@ -440,7 +453,7 @@ h5{
     }
 
     main{
-        margin: 15px 40px 15px 13px;
+        margin: 15px 120px 15px 13px;
         height: 60%;
     }
 
@@ -459,7 +472,7 @@ h5{
       display: flex;
       flex-direction: column;
       position: relative;
-      right: 96%;
+      right: 74%;
       margin-left: 2em;
       order: 3;
       font-size: 1.3em;
@@ -478,15 +491,30 @@ h5{
         flex-direction: column;
         margin-top: 5.2em;
         margin-left: 1.5em;
-        margin-right: 9em;
-        width: 50%;
+        
+        
     }
 }
 
 
 @media (min-width:900px) {
     section#orders{
-        right: 70%;
+       right: 60%;
+    }
+    #stylebtn{
+        
+        right: -72vw;
+    }
+
+    #profileimg{
+      
+        right: -69.5vw;
+    }
+    
+    #profile{
+        
+        right: -72.5vw;
+        
     }
     
 }

@@ -4,6 +4,7 @@ const darkbtn = document.querySelector('#darkpart')
 const btn = document.querySelector('#stylebtn')
 const boxes = document.querySelector('div.box')
 const sidemenureal = document.querySelector('#menureal')
+const menubutton = document.querySelector('#menubtn')
 
 
 
@@ -17,5 +18,7 @@ boxes.classList.toggle('dark')
 
 function menuopen(){
     sidemenureal.classList.toggle('hide')
+    menubutton.classList.toggle('hide')
+
     
 }
