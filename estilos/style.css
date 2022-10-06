@@ -368,6 +368,12 @@ h5{
     p{
         margin-top: 1.5em;
     }
+    h1#updatesTitle{
+        margin-top: 0.3em;
+    }
+    h1#Salestitle{
+        margin-top: 0.48em;
+    }
 
     #stylebtn{
         position: relative;
@@ -448,8 +454,13 @@ h5{
     
 
     div.box{
-        padding: 30px 10px;
-        font-size: 2.7vw;
+        padding: 18px 9px;
+        font-size: 0.2vw;
+    }
+    div#title-box{
+        font-size: 2.8vw;
+        padding: 10px 0px 9px 13px;
+
     }
 
     main{
@@ -460,19 +471,21 @@ h5{
     section#updates{
         display: flex;
         flex-direction: column;
-        width: 70%;
+        width: 62%;
 
     }
     section#sales{
-        width: 70%;
+        width: 64%;
     }
+    
+
 
     
     section#orders{
       display: flex;
       flex-direction: column;
       position: relative;
-      right: 74%;
+      right: 63%;
       margin-left: 2em;
       order: 3;
       font-size: 1.3em;
@@ -494,12 +507,30 @@ h5{
         
         
     }
+
+    div#imgProfileMike{
+        width: 63px;
+        height: 63px;
+    }
+    div#imgProfileDiana{
+        width: 63px;
+        height: 63px;
+    }
+    div#imgProfileMandy{
+        width: 63px;
+        height: 63px;
+    }
+    div.update{
+        margin-bottom: 7.2em;
+        margin-left: 4.5em;
+    }
+
 }
 
 
 @media (min-width:900px) {
     section#orders{
-       right: 60%;
+       right: 53%;
     }
     #stylebtn{
         
@@ -515,6 +546,10 @@ h5{
         
         right: -72.5vw;
         
+    }
+    #dashboard .box {
+        width: 145%;
+        font-size: 2.1vw;
     }
     
 }
